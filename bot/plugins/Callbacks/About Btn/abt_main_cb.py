@@ -29,28 +29,23 @@ async def cb_about(bot, update: CallbackQuery):
     if user_id not in chat_admins:
         return
 
-    text=f"<i><u>Bot's Status</u></i>\n"
-    text+=f"\n<b><i>Bot's Uptime:</i></b> <code>{time_formatter(time.time() - start_uptime)}</code>\n"
-    text+=f"\n<b><i>Bot Funtion:</i></b> <i>Auto Filter Files</i>\n"
-    text+=f"""\n<b><i>Bot Support:</i></b> <a href="https://t.me/CrazyBotszGrp">@CrazyBotszGrp</a>\n"""
-    text+="""\n<b><i>Source Code:</i></b> <a href="https://github.com/CrazyBotsz/Adv-Auto-Filter-Bot-V2">Source</a>"""
-
+    
     buttons = [
         [
             InlineKeyboardButton
                 (
-                    "My Dev ⚡", url="https://t.me/AlbertEinstein_TG"
+                    " My Dev ", url="https://t.me/Yes_i_am_black"
                 ),
                 
             InlineKeyboardButton
                 (
-                    "🔙 Back", callback_data="settings"
+                    " Back ", callback_data="settings"
                 )
         ],
         [
             InlineKeyboardButton
                 (
-                    "Close 🔐", callback_data="close"
+                    " Close ", callback_data="close"
                 )
         ]
     ]
