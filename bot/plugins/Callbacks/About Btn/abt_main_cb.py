@@ -34,18 +34,18 @@ async def cb_about(bot, update: CallbackQuery):
         [
             InlineKeyboardButton
                 (
-                    " My Dev ", url="https://t.me/Yes_i_am_black"
+                    "My Dev", url="https://t.me/Yes_i_am_black"
                 ),
                 
             InlineKeyboardButton
                 (
-                    " Back ", callback_data="settings"
+                    "Back", callback_data="settings"
                 )
         ],
         [
             InlineKeyboardButton
                 (
-                    " Close ", callback_data="close"
+                    "Close", callback_data="close"
                 )
         ]
     ]
