@@ -81,12 +81,12 @@ async def cb_channel_list(bot, update: CallbackQuery):
         [
             InlineKeyboardButton
                 (
-                    "🔙 Back", callback_data="settings"
+                    " Back ", callback_data="settings"
                 ),
             
             InlineKeyboardButton
                 (
-                    "Close 🔐", callback_data="close"
+                    " Close ", callback_data="close"
                 )
         ]
     ) 
@@ -228,7 +228,7 @@ async def cb_info(bot, update: CallbackQuery):
             [
                 InlineKeyboardButton
                     (
-                        "🔙 Back", callback_data=f"channel_list({chat_id})"
+                        " Back ", callback_data=f"channel_list({chat_id})"
                     )
             ]
     )
@@ -346,7 +346,7 @@ async def cb_info(bot, update: CallbackQuery):
     #             [
     #                 InlineKeyboardButton
     #                     (
-    #                         "🔙 Back", callback_data=f"channel_list({chat_id})"
+    #                         " Back ", callback_data=f"channel_list({chat_id})"
     #                     )
     #             ]
     #     )
