@@ -49,8 +49,6 @@ async def start(bot, update):
     buttons = [[
         InlineKeyboardButton('Developers', url='https://t.me/Yes_i_am_black')
     ],[
-        InlineKeyboardButton('Support 🛠', url='https://t.me/CrazyBotszGrp')
-    ],[
         InlineKeyboardButton('Help ⚙', callback_data="help")
     ]]
     
